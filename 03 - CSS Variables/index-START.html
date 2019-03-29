@@ -22,9 +22,19 @@
 
   <style>
 
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
     /*
       misc styles, nothing to do with CSS variables
     */
+
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+    }
 
     body {
       text-align: center;
